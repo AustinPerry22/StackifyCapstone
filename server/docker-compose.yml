@@ -1,0 +1,9 @@
+services:
+  app:
+    image: austinperry/stackify:latest
+    restart: unless-stopped
+    env_file:
+      - stackify-env
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
