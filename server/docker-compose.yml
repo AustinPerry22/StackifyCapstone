@@ -1,9 +1,9 @@
-version: '3'
+version: "3"
 services:
   app:
-    image: zarathrian/stackify_repo:latest
+    image: austinperry/stackify:latest
+    restart: unless-stopped
     env_file:
-      - stackify_repo-env
+      - stackify-env
     ports:
       - "3001:3000"
-    restart: unless-stopped
