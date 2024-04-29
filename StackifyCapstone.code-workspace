@@ -10,7 +10,7 @@
     },
     {
       "path": ".github/workflows",
-      "workflows": "server"
+      "workflows": "workflow"
     }
   ],
   "settings": {
